@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 
 
+"""
+Chained Full-Adder Implementation in Python
+"""
+
+
 def to_bits(a):
     return (bool(int(x, 2)) \
             for x in reversed(str(bin(a))[2:]))
